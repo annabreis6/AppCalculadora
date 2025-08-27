@@ -7,4 +7,12 @@ public class calculadora {
     	if (b == 0) throw new IllegalArgumentException("Divisão por zero não permitida!");
     	return (double) a / b;
 	}
+
+   public static int soma(int a, int b) {
+       return a + b;
+   }
+     
+   public static int subtracao(int a, int b) {
+       return a - b;
+   }
 }
